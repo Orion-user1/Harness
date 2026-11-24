@@ -2,8 +2,9 @@
 pipeline:
   name: App Package and Publish
   identifier: cicd_app_package_and_publish
-  projectIdentifier: <+project.identifier>
-  orgIdentifier: <+org.identifier>
+  projectIdentifier: default_project
+  orgIdentifier: default
+
 
   #═════════════════════════════════════════════════════════════════════════════
   # 📦 ARTIFACT PACKAGING & PUBLISHING PIPELINE
